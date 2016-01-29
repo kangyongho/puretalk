@@ -2,11 +2,11 @@
 
 It have two directory 'Client' and 'Server'
 
-1. Client is Android that build from Android Studio.
+Client is Android that build from Android Studio.
 
 It doesn't have Volley module. Please add on it.
 
-2. Server is formed with Spring Framework.
+Server is formed with Spring Framework.
 
 It is useed java, hibernate based on framework.
 
