@@ -20,7 +20,7 @@ Please try Git for windows from https://git-for-windows.github.io/ or https://de
 
 You just figure out how to use clone command.
 
-Try just onece.
+Try just once.
 
 And plus it's important to try get google developer blog.
 
