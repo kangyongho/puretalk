@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#512DA8</color>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorAccent">#E040FB</color>
+    <color name="navigationBarColor">#673AB7</color>
+    <color name="colorControlHighlight">#E040FB</color>
+    <color name="colorControlNormal">#D1C4E9</color>
+    <color name="buttonText">#ffffff</color>
+    <color name="subText">#727272</color>
+    <color name="pressed">#E040FB</color>
+    <color name="nonpressed">#673AB7</color>
+    <color name="chattingBackground">#AED581</color>
+</resources>

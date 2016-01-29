@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:stretchColumns="*">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="적용기술"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <TableRow>
+            <ImageView
+                android:src="@drawable/btn_stat_notify"/>
+            <ImageView
+                android:src="@drawable/btn_stat_notify"/>
+            <ImageView
+                android:src="@drawable/btn_stat_notify"/>
+            <ImageView
+                android:src="@drawable/btn_stat_notify"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"
+                android:text="Spring"
+                android:textSize="20dp"
+                android:padding="3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"
+                android:text="JSON"
+                android:textSize="20dp"
+                android:padding="3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"
+                android:text="Hibernate"
+                android:textSize="20dp"
+                android:padding="3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"
+                android:text="AWS"
+                android:textSize="20dp"
+                android:padding="3dp"/>
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"/>
+    </TableLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:elevation="4dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="@string/history"/>
+    </ScrollView>
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:stretchColumns="1">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="소스공개"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <TableRow>
+            <ImageView
+                android:id="@+id/mygithub"
+                android:clickable="true"
+                android:src="@drawable/btn_stat_notify"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"
+                android:text="Git Hub"
+                android:textSize="20dp"
+                android:padding="3dp"/>
+            <TextView />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

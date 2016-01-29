@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">PureTalk</string>
+    <string name="agreement">
+        "개인정보 이용 동의안내.\n\n"
+        "Pure Talk Beta (퓨어톡 베타)는 개인정보 취급방침에 따라 주소록 이용동의를 받습니다.\n\n"
+        "핸드폰의 주소록을 서버로 전송하여 서버에 같은 사용자가 있는지 확인하는 용도로 사용됩니다.\n\n"
+        "서버에 저장되는 전화번호는 다음과 같습니다.\n\n"
+        "사용자 번호, 친구로 등록된 사용자 번호.\n"
+    </string>
+    <string name="history">
+        "앱 설명\n\n"
+        "이름: Pure Talk \n\n"
+
+        "주요기능: JSON 메시지 전송, GCM Push Service 구현.\n\n"
+
+        "이용안내: 주소록 동기화.\n"
+        "자동동기화가 지원되지 않기 때문에 상단 버튼을 눌러서 친구 동기화를 해줘야 합니다.\n\n"
+
+        "동기화 방식\n"
+        "주소록을 서버로 전송하여 DB와 비교하고 친구목록과 채팅목록 동시 생성.\n"
+        "동기화시 모든 목록을 갱신합니다.\n"
+        "채팅목록을 친구목록과 동일하게 생성하는 임시 방편을 사용중입니다.\n\n"
+
+        "개발기간: 1 month\n\n"
+
+        "핵심 적용기술\n\n"
+
+        "서버\n"
+        "Spring: Java Domain Model, DI, IoC Container, DispatcherServlet, MappingJackson2HttpMessageConverter, RestFul API, Gradle\n\n"
+
+        "클라이언트\n"
+        "안드로이드: ListView, ViewPager, TabLayout, Volley Http Module, JSON\n\n"
+
+        "데이터베이스\n"
+        "MySQL, Hibernate\n\n"
+
+        "기타\n"
+        "AWS 서버이용, GitHub 소스공개\n\n"
+    </string>
+</resources>
