@@ -1,4 +1,4 @@
-# puretalk
+# Pure Talk
 
 I build an Android Instance messaging application that name is PureTalk.
 
