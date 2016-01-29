@@ -10,7 +10,7 @@ https://play.google.com/store/apps/details?id=org.npost.puretalk
 
 Before build this code. Please try add volley submodule.
 
-You can get volley via below git base.
+You can get volley via git base.
 
 "git clone https://android.googlesource.com/platform/frameworks/volley"
 
