@@ -8,7 +8,7 @@ It doesn't have Volley module. Please add on it.
 
 Server is formed with Spring Framework.
 
-It is useed java, hibernate based on framework.
+It is used java, hibernate based on framework.
 
 The database is MySQL.
 
