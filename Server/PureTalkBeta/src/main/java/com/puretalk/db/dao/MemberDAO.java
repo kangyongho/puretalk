@@ -294,7 +294,7 @@ public class MemberDAO {
 				tx.rollback();
 				e.printStackTrace();
 			}
-		}
+		} finally {session.close();}
 		return loginResult;
 	}
 	
