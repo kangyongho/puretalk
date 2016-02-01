@@ -1,6 +1,6 @@
 # INDEX puretalk directory
 
-It have two directory 'Client' and 'Server'
+It has two directory 'Client' and 'Server'
 
 Client is Android that build from Android Studio.
 
