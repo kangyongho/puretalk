@@ -2,7 +2,7 @@
 
 I build an Android Instance messaging application that name is PureTalk.
 
-It base on JSON payroad to http from to server.
+It bases on JSON payroad to http from to server.
 
 You can download it at Google Play.
 
